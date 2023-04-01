@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Word</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Guess the Word</h1>
+      <p id="word"></p>
+      <p id="message"></p>
+      <input type="text" id="guess" placeholder="Enter a letter or the full word">
+      <button onclick="checkGuess()">Guess</button>
+      <p>Remaining Guesses: <span id="remaining"></span></p>
+      <button onclick="resetGame()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
